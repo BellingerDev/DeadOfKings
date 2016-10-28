@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1528645cba0c564ab6c66497b684db6, type: 3}
+  m_Name: DeadOfKingsData
+  m_EditorClassIdentifier: 
+  playersDB: {fileID: 11400000, guid: cb34d7e175e117749ab8bf0769b8f676, type: 2}
+  cardTemplate: {fileID: 158172, guid: 355c24cfb7acf2f4d83bd981cbd48d9d, type: 2}
+  winConditions:
+  - {fileID: 11400000, guid: c6cf36b1e952b844cac8c7751ee0c64c, type: 2}
+  loseConditions:
+  - {fileID: 11400000, guid: 4704ffa88fbcf254faba5811acc69abb, type: 2}
+  scoreReward: 1
+  handCardsCount: 5
+  sleeveCardsCount: 3
+  userPlayerId: vasia
+  minPlayers: 2
+  maxPlayers: 5
